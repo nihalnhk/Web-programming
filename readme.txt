@@ -32,3 +32,6 @@ pulling
 
 Creating ssh key
 
+1. First generate ssh key by running the command $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" followed by providing passphrase.
+2.Go to settings --> SSH and GPG keys --> New ssh key --> provide title and paste the generated public ssh key --> Add ssh key.
+
