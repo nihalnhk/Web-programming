@@ -20,7 +20,13 @@ Pushing to repo
 2. git config --global user.name"uname"
 3. git config --global user.email "uemail"
 4. git add .
-5. git remote add origin https link to repository
+5. git remote add origin (https link to repository)
 6. git commit -m "First Commit"
 7. git push -u Origin master
+
+pulling
+
+1. Create a clone of the repository by git clone( link to repository) command.
+2. Create a file named readme.txt in github and type the datas.
+3.Open terminal , type git pull command.
 
