@@ -28,10 +28,10 @@ pulling
 
 1. Create a clone of the repository by git clone( link to repository) command.
 2. Create a file named readme.txt in github and type the datas.
-3.Open terminal , type git pull command.
+3. Open terminal , type git pull command.
 
 Creating ssh key
 
-1. First generate ssh key by running the command $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" followed by providing passphrase.
-2.Go to settings --> SSH and GPG keys --> New ssh key --> provide title and paste the generated public ssh key --> Add ssh key.
-
+1. First generate ssh key by running the command in terminal $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" followed by providing passphrase.
+2. Go to github-->Login--> settings --> SSH and GPG keys --> New ssh key --> provide title and paste the generated public ssh key --> Add ssh key.
+3. Successfully Generated ssh key.
