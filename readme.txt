@@ -30,3 +30,5 @@ pulling
 2. Create a file named readme.txt in github and type the datas.
 3.Open terminal , type git pull command.
 
+...
+
