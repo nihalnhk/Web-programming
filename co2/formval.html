@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+form{
+padding-top: 300px;
+}
+body
+{
+background-color: cyan;
+}
+</style>
+<script>
+function validate()
+{
+var msg="";
+if(document.getElementById('log').value=="")
+{
+msg = "username";
+document.getElementById('log').focus()
+}if(document.getElementById('pass').value=="")
+
+{
+if(msg!="")
+{
+msg+=" and "
+}
+msg+="password";
+}
+if(msg!="")
+{
+alert("provide "+msg);
+return false;
+}
+}
+</script>
+</head><body
+onload="document.getElementById('log').focus()">
+
+<center>
+<form action="" method="post" onsubmit="validate()" >
+
+UserName: <input type="text" id="log"></br></br>
+Password:&nbsp; <input type="password"
+id="pass"></br></br>
+<input type="submit" name="submit1" value="Login">
+</center>
+
+</form>
+</body>
+</html>
