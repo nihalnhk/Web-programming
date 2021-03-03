@@ -1,0 +1,15 @@
+table
+{
+width: 400px;
+column-width: 80px;
+}
+label{
+color: crimson;
+}
+th, td {
+padding: 15px;
+}
+body
+{
+background-color: azure;
+}
