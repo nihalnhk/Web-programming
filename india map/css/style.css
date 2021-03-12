@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+
+img
+{
+    width: 700px;
+    height: 730px;
+}
+
+table
+{
+    float: right;
+    padding-right: 40%;
+    padding-top: 20%;
+    font-size: 130%;
+    
+}
+
+tr{
+    font-family: cursive;
+}
+
+th , td
+{
+    text-align: center;
+}
